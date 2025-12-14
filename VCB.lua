@@ -511,7 +511,7 @@ function VCB_OnEvent(event)
 			VCB_ICON_POINT = "CENTER"
 			VCB_ICON_POSX = 0
 			VCB_ICON_POSY = 0
-			VCB_MM_ICON = false
+			VCB_MM_ICON = true
 		end	
 		-- New variables since v2.5:
 		if VCB_SAVE["Timer_below_60"] == nil then VCB_SAVE["Timer_below_60"] = false end
